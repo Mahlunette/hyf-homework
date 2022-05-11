@@ -86,6 +86,14 @@ input {
 label {
   padding: 2rem;
 }
+
+.country {
+  margin-left: 3rem;
+}
+
+.address {
+  margin-left: -5rem;
+}
 /* form 2 */
 
 /* form 3 */
