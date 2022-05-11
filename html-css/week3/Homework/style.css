@@ -1,30 +1,7 @@
 /* form 1 */
 
 body {
-  margin: 2rem;
-}
-
-.square {
-  height: 10rem;
-  width: 10rem;
-  background-color: rgb(219, 218, 218);
-  border: 1px solid black;
-  line-height: 10rem;
-  text-align: center;
-}
-
-.rectangle {
-  height: 10rem;
-  width: 40rem;
-  background-color: rgb(219, 218, 218);
-  border: 1px solid black;
-  line-height: 10rem;
-  text-align: center;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
+  margin: 4rem;
 }
 
 h1 {
@@ -35,9 +12,57 @@ p {
   font-size: 2.8rem;
 }
 
+/* navbar */
+.square {
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(219, 218, 218);
+  border: 1px solid black;
+  line-height: 10rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rectangle {
+  height: 10rem;
+  width: 40rem;
+  background-color: rgb(219, 218, 218);
+  border: 1px solid black;
+  line-height: 10rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .step1 {
   font-size: 5rem;
 }
+
+/* progress-bar */
+
+.progress-bar-heading {
+  font-size: 3rem;
+}
+.box1 {
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(215, 213, 213);
+}
+
+.box2 {
+  height: 10rem;
+  width: 7rem;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
 /* form 2 */
 
 /* form 3 */
