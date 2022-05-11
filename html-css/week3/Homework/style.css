@@ -1,14 +1,43 @@
 /* form 1 */
 
+body {
+  margin: 2rem;
+}
 
+.square {
+  height: 10rem;
+  width: 10rem;
+  background-color: rgb(219, 218, 218);
+  border: 1px solid black;
+  line-height: 10rem;
+  text-align: center;
+}
 
+.rectangle {
+  height: 10rem;
+  width: 40rem;
+  background-color: rgb(219, 218, 218);
+  border: 1px solid black;
+  line-height: 10rem;
+  text-align: center;
+}
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
 
+h1 {
+  font-size: 7rem;
+}
+
+p {
+  font-size: 2.8rem;
+}
+
+.step1 {
+  font-size: 5rem;
+}
 /* form 2 */
-
-
-
-
-
 
 /* form 3 */
