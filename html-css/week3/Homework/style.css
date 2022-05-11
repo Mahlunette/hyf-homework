@@ -73,6 +73,11 @@ p {
 .user-info {
   font-size: 3rem;
   font-weight: 700;
+  margin: 8rem;
+}
+
+input {
+  width: 20rem;
 }
 
 /* form 2 */
