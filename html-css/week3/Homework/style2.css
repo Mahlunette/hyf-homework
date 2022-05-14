@@ -1,0 +1,97 @@
+body {
+  margin: 4rem;
+  border: 0.2px solid black;
+  padding: 2rem;
+  /* background-image: linear-gradient(
+      rgba(255, 255, 255, 0.799) 0%,
+      rgba(182, 180, 180, 0.73) 100%
+    ),
+    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* navbar */
+.square {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(223, 221, 221);
+  border: 1px solid black;
+  line-height: 9rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.rectangle {
+  height: 8rem;
+  width: 35rem;
+  background-color: rgb(227, 226, 226);
+  border: 1px solid black;
+  line-height: 9rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step1 {
+  font-size: 3rem;
+}
+
+.box1 {
+  height: 3.5rem;
+  width: 14rem;
+  background-color: rgb(215, 213, 213);
+}
+
+.box2 {
+  height: 3.5rem;
+  width: 7rem;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.contact-info {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 5rem;
+}
+
+input {
+  width: 20rem;
+  height: 0rem;
+  padding: 2rem;
+  margin: 1rem 0;
+  /* text-align: right; */
+}
+
+label {
+  padding: 2.5rem;
+}
+
+.Password {
+  margin-left: -3rem;
+}
+
+.re-password {
+  margin-left: -9rem;
+}
+.newsletter-note {
+  font-weight: 100;
+}
