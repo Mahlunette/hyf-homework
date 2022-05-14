@@ -94,4 +94,24 @@ label {
 }
 .newsletter-note {
   font-weight: 100;
+  margin-left: -6rem;
+}
+
+.checkbox {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.button-input {
+  padding: 2rem 4rem 4rem 3rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
+  margin-right: 6rem;
+}
+
+.news-checkbox {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0%;
 }
