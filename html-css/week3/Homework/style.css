@@ -104,11 +104,39 @@ label {
 }
 
 .description-box {
-  height: 10rem;
-  width: 60rem;
+  height: 12rem;
+  width: 50rem;
   background-color: rgb(255, 254, 254);
   border: 1px solid black;
-  margin: 4rem 1rem;
+  margin: 0rem 2rem;
+}
+
+.address-note {
+  margin-left: -18rem;
+  margin-bottom: 0rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-input {
+  padding: 2rem 4rem 4rem 3rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
+  margin-right: 6rem;
+}
+
+.shipping-address-checkbox {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0%;
+}
+
+.shipping-address-label {
+  padding-right: 0rem;
 }
 /* form 2 */
 
