@@ -8,7 +8,7 @@
     <title>Step2</title>
   </head>
   <body>
- <div class="main">
+    <div class="main">
       <!-- navigation bar -->
       <div class="nav">
         <h4 class="square">Logo</h4>
@@ -19,7 +19,6 @@
 
       <div class="pitch">
         <h1>Sign up to yourcustomtailor.com</h1>
-        
       </div>
       <h1 class="step1">Step 2/4- How can we reach you?</h1>
       <!-- <div class="form"> -->
@@ -29,11 +28,12 @@
         <div class="box2"></div>
       </div>
       <p>
-        We will probably need to stay in touch somehow. Let us know how we can reach you!
+        We will probably need to stay in touch somehow. Let us know how we can
+        reach you!
       </p>
 
-      <div class="contact-info">
-        <form action="#" method="POST">
+      <form action="#" method="POST">
+        <div class="contact-info">
           <div>
             <label for="Email">Email* </label>
             <input type="text" name="user-email" id="Email" />
@@ -47,28 +47,42 @@
           <div class="re-password">
             <label for="re-password">Re-enter Password*</label>
             <input type="number" name="user-password" id="re-password" />
-           
           </div>
-       
+
           <p class="newsletter-note">I want to sign up for the newsletter</p>
 
-                <div class="checkbox">
-                  <label for="Shipping address">Weekly news</label>
-                  <input class="news-checkbox" type="checkbox"  name="shipping address" id="shippping-address" checked />
-                  <label for="Shipping address">Daily news</label>
-                  <input class="news-checkbox" type="checkbox"  name="shipping address" id="shippping-address" checked />
-                  <label for="Shipping address">Don't send me news</label>
-                  <input class="news-checkbox" type="checkbox"  name="shipping address" id="shippping-address" checked />
-                </div>
-                <div class="button">
-                  <a href="https://github.com/Mahlunette/hyf-homework/blob/main/html-css/week3/Homework/form2.html">
-                    <input class="button-input" type="button" value="Next step">
-                  </a>
-                </div>
-              </div>
-       
-      </div>
+          <div class="checkbox">
+            <label for="Shipping address">Weekly news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+              checked
+            />
+            <label for="Shipping address">Daily news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+            />
+            <label for="Shipping address">Don't send me news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+            />
+          </div>
 
-
+          <a
+            href="https://github.com/Mahlunette/hyf-homework/blob/main/html-css/week3/Homework/form2.html"
+          >
+            <input class="button-input" type="button" value="Next step" />
+          </a>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
