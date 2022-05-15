@@ -1,12 +1,12 @@
 body {
   margin: 4rem;
   border: 0.2px solid black;
-  padding: 1rem;
+  padding: 3rem;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.799) 0%,
       rgba(182, 180, 180, 0.73) 100%
     ),
-    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+    url(https://i.pinimg.com/564x/52/fd/01/52fd01ca845ec45170651eaaf2ea7c4c--fashion-illustrations-ants.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -81,7 +81,7 @@ p {
   grid-template-columns: 20em 20em 20em 20em;
   grid-template-rows: 20rem 20rem 20rem 20rem;
   text-align: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-top: 5rem;
 }
 
@@ -131,7 +131,7 @@ p {
 
 #sexy {
   height: 16rem;
-  width: 16rem;
+  width: 28rem;
 }
 
 .formal {

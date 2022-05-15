@@ -6,7 +6,7 @@ body {
       rgba(255, 255, 255, 0.799) 0%,
       rgba(182, 180, 180, 0.73) 100%
     ),
-    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+    url(https://i.pinimg.com/564x/52/fd/01/52fd01ca845ec45170651eaaf2ea7c4c--fashion-illustrations-ants.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -107,7 +107,6 @@ label {
   font-size: 2rem;
   font-weight: 550;
   background-color: rgb(223, 221, 221);
-  
 }
 
 .news-checkbox {
