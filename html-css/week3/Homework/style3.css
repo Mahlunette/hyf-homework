@@ -2,13 +2,13 @@ body {
   margin: 4rem;
   border: 0.2px solid black;
   padding: 1rem;
-  /* background-image: linear-gradient(
-        rgba(255, 255, 255, 0.799) 0%,
-        rgba(182, 180, 180, 0.73) 100%
-      ),
-      url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.799) 0%,
+      rgba(182, 180, 180, 0.73) 100%
+    ),
+    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 h1 {
@@ -74,4 +74,91 @@ p {
   grid-template-rows: 2em 2em 2em;
   text-align: left;
   margin-left: 7rem;
+}
+
+.image-preference {
+  display: grid;
+  grid-template-columns: 20em 20em 20em 20em;
+  grid-template-rows: 20rem 20rem 20rem 20rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.vintage {
+  display: flex;
+  flex-direction: column;
+}
+
+#vintage {
+  height: 16rem;
+  width: 16rem;
+}
+.artsy {
+  display: flex;
+  flex-direction: column;
+}
+
+#artsy {
+  height: 16rem;
+  width: 16rem;
+}
+
+.chic {
+  display: flex;
+  flex-direction: column;
+}
+
+#chic {
+  height: 16rem;
+  width: 16rem;
+}
+
+.bohemian {
+  display: flex;
+  flex-direction: column;
+}
+
+#bohemian {
+  height: 16rem;
+  width: 16rem;
+}
+
+.sexy {
+  display: flex;
+  flex-direction: column;
+}
+
+#sexy {
+  height: 16rem;
+  width: 16rem;
+}
+
+.formal {
+  display: flex;
+  flex-direction: column;
+}
+
+#formal {
+  height: 16rem;
+  width: 16rem;
+}
+
+.smart-casual {
+  display: flex;
+  flex-direction: column;
+}
+#smart-casual {
+  height: 16rem;
+  width: 16rem;
+}
+
+.exotic {
+  display: flex;
+  flex-direction: column;
+}
+
+#exotic {
+  height: 16rem;
+  width: 16rem;
 }
