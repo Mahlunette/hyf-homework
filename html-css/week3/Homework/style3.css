@@ -79,10 +79,9 @@ p {
 .image-preference {
   display: grid;
   grid-template-columns: 20em 20em 20em 20em;
-  grid-template-rows: 20rem 20rem 20rem 20rem;
+  grid-template-rows: 20rem 20rem;
   text-align: center;
-  margin-left: 1rem;
-  margin-top: 5rem;
+  margin: 5rem 1rem 0rem 1rem;
 }
 
 .vintage {
@@ -161,4 +160,13 @@ p {
 #exotic {
   height: 16rem;
   width: 16rem;
+}
+
+button {
+  margin-left: 52rem;
+  padding: 1.5rem 8rem 1.5rem 8rem;
+
+  font-size: 1.5rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
 }
