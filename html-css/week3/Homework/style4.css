@@ -133,6 +133,14 @@ label {
   margin-left: 2.1rem;
 }
 
-button {
+.button-input {
+  padding: 1rem 2rem 1.5rem 1rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(193, 190, 190);
+}
 
+.button {
+  width: 40%;
+  margin-left: 55rem;
 }
