@@ -80,9 +80,13 @@ p {
 
 input {
   width: 20rem;
-  /* height: 0rem; */
+  background-color: rgb(240, 240, 234);
   padding: 1.2rem;
   margin: 1.5rem 0;
+}
+
+.small-input {
+  width: 40%;
 }
 
 label {
@@ -93,4 +97,10 @@ label {
 .name-type {
   display: flex;
   flex-direction: column;
+}
+
+.date-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
