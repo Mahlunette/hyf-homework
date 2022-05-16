@@ -86,7 +86,15 @@ input {
 }
 
 .small-input {
-  width: 40%;
+  width: 15%;
+}
+
+.CCV-small-input {
+  width: 5%;
+}
+
+#expiry-date {
+  margin-left: -2rem;
 }
 
 label {
@@ -103,4 +111,28 @@ label {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.card-name {
+  margin-left: -3rem;
+}
+
+.card-name2 {
+  margin-left: -0.85rem;
+}
+
+.number-name-info {
+  margin-left: -7rem;
+}
+
+.date-info {
+  margin-left: -3rem;
+}
+
+.ccv {
+  margin-left: 2.1rem;
+}
+
+button {
+
 }
