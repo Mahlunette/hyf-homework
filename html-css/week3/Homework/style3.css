@@ -163,10 +163,11 @@ p {
 }
 
 .button-input {
-  padding: 1.2rem 2rem 2rem 1.5rem;
+  padding: 2rem 5rem 2rem 4rem;
   font-size: 2rem;
   font-weight: 550;
   background-color: rgb(223, 221, 221);
+  margin-right: 6rem;
 }
 
 .button {
