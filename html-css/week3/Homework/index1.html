@@ -11,9 +11,9 @@
     <div class="main">
       <!-- navigation bar -->
       <div class="nav">
-        <h4 class="square">
+        <div class="square">
           <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo">
-        </h4>
+        </div>
         <div class="rectangle">
         <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Home </a>
         <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Products</a>
@@ -55,19 +55,19 @@
         <form action="#" method="POST">
           <div class="name">
             <label for="First Name">First Name* </label>
-            <input type="text" name="user-name" id="name" />
+            <input type="text" name="user-name" id="name" required />
             <label for="Last Name">Last Name*</label>
-            <input type="text" name="user-name" id="name" />
+            <input type="text" name="user-name" id="name" required/>
           </div>
           <div class="country">
             <label for="Last Name">Country*</label>
-            <input type="text" name="user-name" id="name" />
+            <input type="text" name="user-name" id="name" required/>
           </div>
           <div class="address">
             <label for="Last Name">Street address*</label>
-            <input type="text" name="user-name" id="name" />
+            <input type="text" name="user-name" id="name" required/>
             <label for="Last Name">Post code*</label>
-            <input type="text" name="user-name" id="name" />
+            <input type="text" name="user-name" id="name" required/>
           </div>
        
       </div>
@@ -93,7 +93,7 @@
       <div class="footer">
         <div class="shipping-address">
           <label for="Shipping address">Shipping address</label>
-          <input class="shipping-address-checkbox" type="checkbox"  name="shipping address" id="shippping-address" checked />
+          <input class="shipping-address-checkbox" type="checkbox"  name="shipping address" id="shippping-address" minlength="4" maxlength="4" checked required />
         </div>
         <div class="button">
           <a href="index2.html">
