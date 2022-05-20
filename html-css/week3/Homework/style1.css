@@ -36,16 +36,18 @@ img {
   border-radius: 50%;
 }
 .rectangle {
-  height: 8rem;
-  width: 35rem;
-  background-color: rgb(227, 226, 226);
-  border: 1px solid black;
+  display: flex;
   line-height: 9rem;
-  text-align: center;
   font-size: 1rem;
   font-weight: 500;
+  margin-right: -25rem;
 }
 
+.flex-item {
+  padding: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
 .nav {
   display: flex;
   justify-content: space-between;
