@@ -163,7 +163,7 @@ p {
 }
 
 .button-input {
-  padding: 2rem 4rem 4rem 3rem;
+  padding: 1.2rem 2rem 2rem 1.5rem;
   font-size: 2rem;
   font-weight: 550;
   background-color: rgb(223, 221, 221);
@@ -171,5 +171,5 @@ p {
 
 .button {
   width: 40%;
-  margin-left: 50rem;
+  margin-left: 60rem;
 }
