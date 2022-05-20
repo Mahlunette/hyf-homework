@@ -12,13 +12,14 @@
       <!-- navigation bar -->
       <div class="nav">
         <div class="square">
-          <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo">
+          <img class="logo"src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo"  height="8rem"
+          width="8rem" >
         </div>
         <div class="rectangle">
         <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Home </a>
         <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Products</a>
         <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html">Trends</a>
-        </div>
+        </div>>
       </div>
 
 
@@ -42,17 +43,17 @@
       <form action="#" method="POST">
         <div class="contact-info">
           <div>
-            <label for="Email">Email* </label>
+            <label for="Email">Email<span>*</span> </label>
             <input type="text" name="user-email" id="Email" required />
             <label for="Phone">Phone</label>
             <input type="number" name="user-phone" id="phone" required minlength="8" maxlength="8" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-0-9]{2}" />
           </div>
           <div class="Password">
-            <label for="Password">Password*</label>
-            <input type="number" name="user-password" id="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required> />
+            <label for="Password">Password<span>*</span></label>
+            <input type="number" name="user-password" id="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required> 
           </div>
           <div class="re-password">
-            <label for="re-password">Re-enter Password*</label>
+            <label for="re-password">Re-enter Password<span>*</span></label>
             <input type="number" name="user-password" id="re-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" minlength="8" required/>
           </div>
 
@@ -65,7 +66,8 @@
               type="radio"
               name="shipping address"
               id="shippping-address"
-              checked
+              value="HTML"
+          
             />
             <label for="Shipping address">Daily news</label>
             <input
@@ -73,6 +75,7 @@
               type="radio"
               name="shipping address"
               id="shippping-address"
+              value="HTML"
             />
             <label for="Shipping address">Don't send me news</label>
             <input
@@ -80,6 +83,7 @@
               type="radio"
               name="shipping address"
               id="shippping-address"
+              value="HTML"
             />
           </div>
 

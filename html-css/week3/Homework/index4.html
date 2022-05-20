@@ -10,7 +10,8 @@
   <body>
     <div class="nav">
       <div class="square">
-        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo">
+        <img class="logo" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo" height="8rem"
+        width="8rem">
       </div>
       <div class="rectangle">
       <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Home </a>
@@ -40,39 +41,39 @@
    
     <div class="name-type">
         <div class="card-name">
-      <label for="card name"> Name on Card</label>
-      <input type="text" id="card name" />
+      <label for="card name"> Name on Card <span>*</span></label>
+      <input type="text" id="card name" required />
     </div>
     <div class="card-name2">
-      <label for="card type">Card Type</label>
-      <input type="text" id="card type"/>
+      <label for="card type">Card Type <span>*</span></label>
+      <input type="text" id="card type" required/>
     </div>
     </div>
 
 
       <div class="number-name-info">
-        <label for="card number">Credit card number</label>
-        <input type="number" id="card number"/>
+        <label for="card number">Credit card number <span>*</span></label>
+        <input type="number" id="card number" maxlength="16" minlength="16" required/>
 
-        <label for="first name">First name</label>
-        <input type="text" id="user name"/>
+        <label for="first name">First name <span>*</span></label>
+        <input type="text" id="user name" required/>
       </div>
       
       <div class="date-info">
           <div>
-        <label for="expiry month">Expiry month</label>
-        <input class="small-input" type="number" />
+        <label for="expiry month">Expiry month <span>*</span></label>
+        <input class="small-input" type="number" required />
 
     </div>
         <div id="expiry-date">
-        <label for="expiry date">Expiry date</label>
-        <input class="small-input" type="number" />
+        <label for="expiry date">Expiry date <span>*</span></label>
+        <input class="small-input" type="number" required/>
     </div>
       </div>
      
       <div class="ccv">
-      <label for="ccv">CCV</label>
-      <input class="CCV-small-input" type="number" id="ccv" />
+      <label for="ccv">CCV <span>*</span></label>
+      <input class="CCV-small-input" type="number" id="ccv" maxlength="3" minlength="3" required />
     </div>
     </div>
     
