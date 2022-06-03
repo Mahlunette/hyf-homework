@@ -5,7 +5,7 @@ function getFullname(firstname,surname){
 
 getFullname("Mahtab", "Mahdavifar")
 
-// declaring 2 variables
+// declaring 2 variable
 const fullname1 = "Mary Shelly"
 const fullname2 = "Johny Shelly"
 
