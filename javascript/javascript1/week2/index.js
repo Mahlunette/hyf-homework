@@ -1,4 +1,4 @@
-// fullname function created 
+// fullname function 
 function getFullname(firstname,surname){
     console.log(`Full name is ${firstname} ${surname}`);
 }
@@ -11,3 +11,36 @@ const fullname2 = "Johny Shelly"
 
 console.log(getFullname(fullname1,fullname2));
 
+
+// create a formalName
+
+function getFullname(firstname,surname,useFormalName) {
+    if(useFormalName === true){
+        return `Lord ${firstname} ${surname}`;
+    }else if(firstname === "" || surname === ""){
+        return `Please add your name`;
+    } else {
+        return `${firstname} ${surname}`
+}
+};
+
+console.log(getFullname("Hamed", "Mahdavifar"));
+
+// declaring with lord
+
+console.log(getFullname("Mahtab", "Mahdavifar", true))
+
+
+// declaring without lord
+console.log(getFullname("Mahtab", "Mahdavifar", false))
+
+// calling a function with empty string 
+console.log(getFullname(""))
+
+// calling a function with no arguments (the result seems to be undefined)
+
+console.log(getFullname())
+
+
+// it seems that it is only possible to add the psarameter of gender 
+// and define it with an if statment if we'd like to include another gender(s) in. 
