@@ -24,25 +24,25 @@ function getFullname(firstname,surname,useFormalName) {
 }
 };
 
-console.log(getFullname("Hamed", "Mahdavifar"));
+    console.log(getFullname("Hamed", "Mahdavifar"));
 
-// declaring with lord
+    // declaring with lord
 
-console.log(getFullname("Mahtab", "Mahdavifar", true))
+    console.log(getFullname("Mahtab", "Mahdavifar", true))
 
 
-// declaring without lord
-console.log(getFullname("Mahtab", "Mahdavifar", false))
+    // declaring without lord
+    console.log(getFullname("Mahtab", "Mahdavifar", false))
 
-// calling a function with empty string 
-console.log(getFullname(""))
+    // calling a function with empty string 
+    console.log(getFullname(""))
 
-// calling a function with no arguments (the result seems to be undefined)
+    // calling a function with no arguments (the result seems to be undefined)
 
-console.log(getFullname())
+    console.log(getFullname())
 
-// it seems that it is only possible to add the psarameter of gender 
-// and define it with an if statment if we'd like to include another gender(s) in. 
+    // it seems that it is only possible to add the psarameter of gender 
+    // and define it with an if statment if we'd like to include another gender(s) in. 
 
 
 
@@ -78,12 +78,48 @@ function decideWhatToWear(temperature){
         return "Have your light fabrics on. Enjoy the heat"
     }
 }
+    console.log(decideWhatToWear(26))
 
-console.log(decideWhatToWear(26))
+// student manager
+
+const class07Students = [];
+function addStudentToClass(studentName) {
+  // You write code here
+  if(class07Students.length >= 6){
+      console.log("You cannot add more students to this class");
+  }else if(class07Students.includes(studentName)){
+      console.log(`${studentName} is already in the list`);
+  }else if(studentName = ""){
+      console.log("Enter student's name please")
+  }else if (class07Students.length < 6 ||  studentName != "Queen Margrethe"){
+      return class07Students.push(studentName);
+  } else {
+    return class07Students.push(studentName);
+  }
+};
+
+// calling the function testing the conditions 
+addStudentToClass("Mahtab")
+addStudentToClass("Manisha")
+addStudentToClass("Reenu")
+addStudentToClass("Vie")
+addStudentToClass("Lokesh")
+addStudentToClass("Marie")
+addStudentToClass("Mahtab")
+addStudentToClass("Violeta")
+addStudentToClass("Queen Margrethe")
+addStudentToClass("")
+
+console.log(addStudentToClass("Queen Margrethe"))
 
 
+// This function gets the number of students
+function getNumberOfStudents(number) {
+  // You write code here
+return `There are ${class07Students.length} students in this class`;
 
-
+}
+getNumberOfStudents(8);
 
 
 
