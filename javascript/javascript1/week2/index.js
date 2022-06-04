@@ -65,6 +65,24 @@ function getEventWeekday(eventDayFromToday){
 
 
 
+// Weather wear 
+ 
+function decideWhatToWear(temperature){
+    if(temperature < 0){
+        return "Go with layers, wool can be a good option"
+    } else if(temperature <= 15){
+        return "Go with light duvet and leather"
+    }else if(temperature <= 20){
+        return "Go with cotton but carry a light jacket"
+    }else {
+        return "Have your light fabrics on. Enjoy the heat"
+    }
+}
+
+console.log(decideWhatToWear(26))
+
+
+
 
 
 
