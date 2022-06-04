@@ -41,6 +41,34 @@ console.log(getFullname(""))
 
 console.log(getFullname())
 
-
 // it seems that it is only possible to add the psarameter of gender 
 // and define it with an if statment if we'd like to include another gender(s) in. 
+
+
+
+// Event application
+// using the getDay method which returns the weekday as a number:
+
+
+const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+function getEventWeekday(eventDayFromToday){
+    const date = new Date();
+    let today = date.getDay()
+    // console.log(today)
+    let event = [(today + eventDayFromToday)%7];
+    // I should remember that I need to return weekdays in ana array 
+    return weekDays[event]
+};
+
+    console.log(getEventWeekday(8));
+
+
+
+
+
+
+
+
+
+
