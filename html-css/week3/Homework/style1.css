@@ -1,0 +1,158 @@
+body {
+  margin: 4rem;
+  border: 0.2px solid black;
+  padding: 2rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.799) 0%,
+      rgba(182, 180, 180, 0.73) 100%
+    ),
+    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span {
+  color: rgb(232, 126, 91);
+}
+/* navbar */
+.square {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(223, 221, 221, 0.5);
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.rectangle {
+  display: flex;
+  line-height: 9rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: -40rem;
+}
+
+.flex-item {
+  padding: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step1 {
+  font-size: 3rem;
+}
+
+/* progress-bar */
+
+.progress-bar-heading {
+  font-size: 1.5rem;
+}
+.box1 {
+  height: 3.5rem;
+  width: 4rem;
+  background-color: rgb(215, 213, 213);
+}
+
+.box2 {
+  height: 3.5rem;
+  width: 7rem;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+/* form body*/
+/* .form {
+  /* padding: rem; */
+/* margin: 3rem; */
+/* background-color: rgb(219, 215, 215);
+} */
+
+.user-info {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+input {
+  width: 20rem;
+  height: 0rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  /* text-align: right; */
+}
+
+label {
+  padding: 2rem;
+}
+
+.country {
+  margin-left: 2rem;
+}
+
+.address {
+  margin-left: -2rem;
+}
+
+.profile-description {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 0;
+}
+
+.description-box {
+  height: 12rem;
+  width: 50rem;
+  background-color: rgb(255, 254, 254);
+  border: 1px solid black;
+  margin: 0rem 2rem;
+}
+
+.address-note {
+  margin-left: -18rem;
+  margin-bottom: 0rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-input {
+  padding: 2rem 4rem 4rem 3rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
+  margin-right: 6rem;
+}
+
+.shipping-address-checkbox {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 0%;
+}
+
+.shipping-address {
+  font-size: 1.4rem;
+  font-weight: 700;
+}

@@ -1,0 +1,187 @@
+body {
+  margin: 4rem;
+  border: 0.2px solid black;
+  padding: 2rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.799) 0%,
+      rgba(182, 180, 180, 0.73) 100%
+    ),
+    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span {
+  color: rgb(232, 126, 91);
+}
+
+/* navbar */
+.square {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(223, 221, 221, 0.5);
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.rectangle {
+  display: flex;
+  line-height: 9rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: -40rem;
+}
+
+.flex-item {
+  padding: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step1 {
+  font-size: 3rem;
+}
+
+.box1 {
+  height: 3.5rem;
+  width: 50%;
+  background-color: rgb(215, 213, 213);
+}
+
+.box2 {
+  height: 3.5rem;
+  width: 50%;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.item-preference {
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 10em 10em;
+  grid-template-rows: 2em 2em 2em;
+  text-align: left;
+  margin-left: 7rem;
+}
+
+.image-preference {
+  display: grid;
+  grid-template-columns: 20em 20em 20em 20em;
+  grid-template-rows: 20rem 20rem;
+  text-align: center;
+  margin: 5rem 1rem 0rem 1rem;
+}
+
+.vintage {
+  display: flex;
+  flex-direction: column;
+}
+
+#vintage {
+  height: 16rem;
+  width: 16rem;
+}
+.artsy {
+  display: flex;
+  flex-direction: column;
+}
+
+#artsy {
+  height: 16rem;
+  width: 16rem;
+}
+
+.chic {
+  display: flex;
+  flex-direction: column;
+}
+
+#chic {
+  height: 16rem;
+  width: 16rem;
+}
+
+.bohemian {
+  display: flex;
+  flex-direction: column;
+}
+
+#bohemian {
+  height: 16rem;
+  width: 16rem;
+}
+
+.sexy {
+  display: flex;
+  flex-direction: column;
+}
+
+#sexy {
+  height: 16rem;
+  width: 28rem;
+}
+
+.formal {
+  display: flex;
+  flex-direction: column;
+}
+
+#formal {
+  height: 16rem;
+  width: 16rem;
+}
+
+.smart-casual {
+  display: flex;
+  flex-direction: column;
+}
+#smart-casual {
+  height: 16rem;
+  width: 16rem;
+}
+
+.exotic {
+  display: flex;
+  flex-direction: column;
+}
+
+#exotic {
+  height: 16rem;
+  width: 16rem;
+}
+
+.button-input {
+  padding: 2rem 5rem 2rem 4rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
+  margin-right: 6rem;
+}
+
+.button {
+  width: 40%;
+  margin-left: 60rem;
+}

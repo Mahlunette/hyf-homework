@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Step2</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- navigation bar -->
+      <div class="nav">
+        <div class="square">
+          <img class="logo"src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fashion-boutique-circle-blue-pink-logo-design-template-94ff8fe643d8ed79a0436e92233fabee_screen.jpg?ts=1619134622" alt="fashion logo"  height="8rem"
+          width="8rem" >
+        </div>
+        <div class="rectangle">
+        <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Home </a>
+        <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html"> Products</a>
+        <a class="flex-item" href="https://htmlpreview.github.io/?https://github.com/mahlunette/hyf-homework/blob/main/html-css/week3/Homework/index1.html">Trends</a>
+        </div>`
+      </div>
+
+
+      <!-- getting the customer to sign up -->
+
+      <div class="pitch">
+        <h1>Sign up to yourcustomtailor.com</h1>
+      </div>
+      <h1 class="step1">Step 2/4- How can we reach you?</h1>
+      <!-- <div class="form"> -->
+      <h2 class="progress-bar-heading">Progress</h2>
+      <div class="progress-bar">
+        <div class="box1"></div>
+        <div class="box2"></div>
+      </div>
+      <p>
+        We will probably need to stay in touch somehow. Let us know how we can
+        reach you!
+      </p>
+
+      <form action="#" method="POST">
+        <div class="contact-info">
+          <div>
+            <label for="Email">Email<span>*</span> </label>
+            <input type="text" name="user-email" id="Email" required />
+            <label for="Phone">Phone</label>
+            <input type="number" name="user-phone" id="phone" required minlength="8" maxlength="8" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-0-9]{2}" />
+          </div>
+          <div class="Password">
+            <label for="Password">Password<span>*</span></label>
+            <input type="number" name="user-password" id="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required> 
+          </div>
+          <div class="re-password">
+            <label for="re-password">Re-enter Password<span>*</span></label>
+            <input type="number" name="user-password" id="re-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" minlength="8" required/>
+          </div>
+
+          <p class="newsletter-note">I want to sign up for the newsletter</p>
+
+          <div class="checkbox">
+            <label for="Shipping address">Weekly news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+              value="HTML"
+          
+            />
+            <label for="Shipping address">Daily news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+              value="HTML"
+            />
+            <label for="Shipping address">Don't send me news</label>
+            <input
+              class="news-checkbox"
+              type="radio"
+              name="shipping address"
+              id="shippping-address"
+              value="HTML"
+            />
+          </div>
+
+          <div class="button">
+            <a href="index3.html">
+              <input class="button-input" type="button" value="Next step">
+            </a>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>

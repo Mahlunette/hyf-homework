@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.letterSpacing": 1,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.minimumContrastRatio": 7,
+    "terminal.integrated.drawBoldTextInBrightColors": true
+}

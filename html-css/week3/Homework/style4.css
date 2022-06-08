@@ -1,0 +1,156 @@
+body {
+  margin: 4rem;
+  border: 0.2px solid black;
+  padding: 2rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.799) 0%,
+      rgba(182, 180, 180, 0.73) 100%
+    ),
+    url(https://c8.alamy.com/comp/CREP29/barclay-fashions-1919-drawing-of-an-evening-gown-in-the-french-magazine-CREP29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span {
+  color: rgb(232, 126, 91);
+}
+
+/* navbar */
+.square {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(223, 221, 221, 0.5);
+  line-height: 9rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.rectangle {
+  display: flex;
+  line-height: 4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: -40rem;
+}
+
+.flex-item {
+  padding: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step1 {
+  font-size: 3rem;
+}
+
+/* progress-bar */
+
+.progress-bar-heading {
+  font-size: 1.5rem;
+}
+
+.box1 {
+  height: 3.5rem;
+  width: 70rem;
+  background-color: rgb(198, 197, 197);
+}
+
+.box2 {
+  height: 3.5rem;
+  width: 7rem;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.payment-form {
+  margin-left: 8rem;
+}
+
+input {
+  width: 20rem;
+  background-color: rgb(240, 240, 234);
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.small-input {
+  width: 15%;
+}
+
+.CCV-small-input {
+  width: 5%;
+}
+
+#expiry-date {
+  margin-left: -2rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.name-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-name {
+  margin-left: -3rem;
+}
+
+.card-name2 {
+  margin-left: -0.85rem;
+}
+
+.number-name-info {
+  margin-left: -7rem;
+}
+
+.date-info {
+  margin-left: -3rem;
+}
+
+.ccv {
+  margin-left: 2.1rem;
+}
+
+.button-input {
+  padding: 1.2rem 2.2rem 1.7rem 1.2rem;
+  font-size: 2rem;
+  font-weight: 550;
+  background-color: rgb(223, 221, 221);
+}
+
+.button {
+  width: 40%;
+  margin-left: 55rem;
+}
