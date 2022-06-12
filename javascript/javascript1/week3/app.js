@@ -97,3 +97,20 @@ calculateSeriesTime()
 
 
 
+
+// Part 4
+//   Note app
+
+// Save a note
+
+let notes = []
+function saveNote(content, id) {
+    notes.push({ content, id });
+}
+
+saveNote("Do HYF assignment", 1)
+saveNote("Clean the house", 2)
+
+console.log(notes);
+
+// Get a note 
