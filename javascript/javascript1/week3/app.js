@@ -114,3 +114,29 @@ saveNote("Clean the house", 2)
 console.log(notes);
 
 // Get a note 
+
+function getNote(id) {
+    if (typeof id !== "number" || id === "") {
+        return "error! Please enter a valid id";
+    } else {
+        for (index = 0; index < notes.length; index++) {
+            if (id === note[index].id) {
+                return note[index];
+            }
+        }
+    }
+}
+
+const exampleNote = getNote(2);
+console.log(exampleNote);
+
+
+// log out notes
+
+function logOutNotesFormatted() {
+    for (let index = 0; index < note.length; index++) {
+        console.log(`the note with id ${note[index].id} has the following note text: ${note[index].content}`)
+    };
+};
+
+logOutNotesFormatted()
