@@ -54,3 +54,46 @@ function estimateArrivalTime(speed, destinationDistance) {
 }
 
 console.log(estimateArrivalTime(50, 432))
+
+
+// Part 3
+// TV series durations in my life
+
+const seriesDurations = [
+    {
+        title: "Game of thrones",
+        days: 3,
+        hours: 1,
+        minutes: 0,
+    },
+    {
+        title: "Sopranos",
+        days: 3,
+        hours: 14,
+        minutes: 0,
+    },
+    {
+        title: "The Wire",
+        days: 2,
+        hours: 12,
+        minutes: 0,
+    },
+];
+
+
+function calculateSeriesTime() {
+    let total = 0;
+    for (i = 0; i < seriesDurations; i++) {
+        let timeSpent =
+            ((seriesDurations[i].days * 24 * 60 +
+                seriesDurations[i].hours * 60 +
+                seriesDurations[i].minutes * 24) / (80 * 365 * 24 * 60)) * 100;
+    }
+    console.log(`{seriesDurations[i].title} took ${timeSpent.toFixed(3)}% of my life`
+    );
+    total += timeSpent;
+};
+calculateSeriesTime()
+
+
+
