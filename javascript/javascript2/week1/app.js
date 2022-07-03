@@ -19,8 +19,11 @@ countdanishVowels(danishString2); // returns {total: 4, æ: 1, ø: 2, å: 1}
 
 function countdanishVowels(danishString) {
   let matchRegex = danishString.match(/[æåø]/gi);
-  if( matchRegex){
+  if(matchRegex){
        console.log(`total ${ matchRegex.length}: {${ matchRegex} } `)
       return  matchRegex.length
   }
  }
+
+
+//  exercise 2
