@@ -27,7 +27,7 @@ function countdanishVowels(danishString) {
 
 
 //  exercise 2
-// Create an input element, a button and a tag to display the spirit animal into.
+
   const inputName = document.getElementById('input');
   const btn = document.getElementById('btn');
   const output = document.getElementById('par');
@@ -36,5 +36,30 @@ function countdanishVowels(danishString) {
   btn.addEventListener('click', () => {
     const nameValue = inputName.value;
     const randomNum = Math.floor(Math.random() * animalsArray.length);
-    output.innerHTML = `${nameValue} is ${animalsArray[randomNum]}`;
+    output.innerHTML = `${nameValue} is a ${animalsArray[randomNum]}`;
   });
+
+
+
+  // Exercise 3
+
+ const listOut = document.getElementById('product-list'); //This returns an element object with the same unique id name from the html file
+  const products = getAvailableProducts();
+  console.log(products); //This should create the ul and the li's with the individual products details
+
+  function renderProducts(products) {
+    //create the HTML elements by tag names
+  const listItem = document.createElement('li');
+  const title = document.createElement('h3');
+  const paragraph = document.createElement('p');
+  //inject inside the title already created above
+  title.innerHTML = `Name: ${products.name}`;
+   //inject inside the paragraph already created above
+  paragraph.innerHTML = `Price: ${products.price}`;
+  //add children to the list item
+  listItem.appendChild(title);
+  listItem.appendChild(paragraph);
+  listOut.appendChild(listItem);
+}
+//executing the function for each product
+products.forEach((product) => renderProducts(product));
