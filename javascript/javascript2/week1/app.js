@@ -27,3 +27,14 @@ function countdanishVowels(danishString) {
 
 
 //  exercise 2
+// Create an input element, a button and a tag to display the spirit animal into.
+  const inputName = document.getElementById('input');
+  const btn = document.getElementById('btn');
+  const output = document.getElementById('par');
+  const animalsArray = ['Elephant', 'Mouse', 'Dog', 'Cat', 'Rabbit', 'Monkey', 'Frog', 'Donkey',];
+
+  btn.addEventListener('click', () => {
+    const nameValue = inputName.value;
+    const randomNum = Math.floor(Math.random() * animalsArray.length);
+    output.innerHTML = `${nameValue} is ${animalsArray[randomNum]}`;
+  });
