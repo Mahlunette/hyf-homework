@@ -24,4 +24,13 @@ console.log(oddNumber);
 //   console.log(newNumbers);
 
 
+listOut.innerHTML= ""
+const maximumPrice = Number(event.target.value);
+if (maximumPrice === 0) {
+  products.forEach((product) => renderProducts(product));
+}else {
+  products.filter(product => product.price < maximumPrice).forEach((product) => renderProducts(product))
+}
+})
+
 
