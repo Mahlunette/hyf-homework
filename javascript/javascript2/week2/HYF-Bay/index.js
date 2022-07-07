@@ -35,8 +35,6 @@ listOut.appendChild(listItem);
 }
 //executing the function for each product
 products.forEach((product) => renderProducts(product));
-
-
 listOut.innerHTML= ""
 const maximumPrice = Number(event.target.value);
 if (maximumPrice === 0) {
@@ -44,4 +42,3 @@ if (maximumPrice === 0) {
 }else {
   products.filter(product => product.price < maximumPrice).forEach((product) => renderProducts(product))
 }
-})
