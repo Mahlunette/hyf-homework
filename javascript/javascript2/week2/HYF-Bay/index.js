@@ -1,27 +1,40 @@
-// Exercide 1:double the odd numbers/ throw the even numbers
-let numbers = [1, 2, 3, 4];
-let newNumbers = []
 
-const oddNumber = numbers.filter(function(number){
-if (number % 2 === 0){
-  newNumbers.push(number * 2)
-}
+//  exercise 2
+
+const inputName = document.getElementById('input');
+const btn = document.getElementById('btn');
+const output = document.getElementById('par');
+const animalsArray = ['Elephant', 'Mouse', 'Dog', 'Cat', 'Rabbit', 'Monkey', 'Frog', 'Donkey',];
+
+btn.addEventListener('click', () => {
+  const nameValue = inputName.value;
+  const randomNum = Math.floor(Math.random() * animalsArray.length);
+  output.innerHTML = `${nameValue} is a ${animalsArray[randomNum]}`;
 });
 
-console.log(oddNumber);
 
+// Exercise 3
 
-// let numbers = [1, 2, 3, 4]
-// let newNumbers =[]
-
-// numbers.map(function(i){
-//     if (numbers[i] % 2 != 0) {
-//       newNumbers[i] = numbers[i] * 2;
-//     }else{
-//       newNumbers.delete
-//     }
-//   })
-//   console.log(newNumbers);
+const listOut = document.getElementById('product-list'); //This returns an element object with the same unique id name from the html file
+const products = getAvailableProducts();
+console.log(products); //This should create the ul and the li's with the individual products details
+// from week 1
+function renderProducts(products) {
+  //create the HTML elements by tag names
+const listItem = document.createElement('li');
+const title = document.createElement('h3');
+const paragraph = document.createElement('p');
+//inject inside the title already created above
+title.innerHTML = `Name: ${products.name}`;
+ //inject inside the paragraph already created above
+paragraph.innerHTML = `Price: ${products.price}`;
+//add children to the list item
+listItem.appendChild(title);
+listItem.appendChild(paragraph);
+listOut.appendChild(listItem);
+}
+//executing the function for each product
+products.forEach((product) => renderProducts(product));
 
 
 listOut.innerHTML= ""
@@ -32,5 +45,3 @@ if (maximumPrice === 0) {
   products.filter(product => product.price < maximumPrice).forEach((product) => renderProducts(product))
 }
 })
-
-
