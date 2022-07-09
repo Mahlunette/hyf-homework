@@ -35,6 +35,8 @@ listOut.appendChild(listItem);
 }
 //executing the function for each product
 products.forEach((product) => renderProducts(product));
+
+// Filtering the products based on the price
 listOut.innerHTML= ""
 const maximumPrice = Number(event.target.value);
 if (maximumPrice === 0) {
