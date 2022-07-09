@@ -44,3 +44,5 @@ if (maximumPrice === 0) {
 }else {
   products.filter(product => product.price < maximumPrice).forEach((product) => renderProducts(product))
 }
+
+
