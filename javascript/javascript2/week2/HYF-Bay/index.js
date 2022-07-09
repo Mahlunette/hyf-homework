@@ -1,4 +1,3 @@
-
 //  exercise 2
 
 const inputName = document.getElementById('input');
@@ -18,7 +17,7 @@ btn.addEventListener('click', () => {
 const listOut = document.getElementById('product-list'); //This returns an element object with the same unique id name from the html file
 const products = getAvailableProducts();
 console.log(products); //This should create the ul and the li's with the individual products details
-// from week 1
+
 function renderProducts(products) {
   //create the HTML elements by tag names
 const listItem = document.createElement('li');
@@ -36,6 +35,7 @@ listOut.appendChild(listItem);
 //executing the function for each product
 products.forEach((product) => renderProducts(product));
 
+// Week 3/ Part 3
 // Filtering the products based on the price
 listOut.innerHTML= ""
 const maximumPrice = Number(event.target.value);
