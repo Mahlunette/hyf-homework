@@ -1,0 +1,16 @@
+[
+{
+"Order name" : "Pepperoni Pizaa",
+"Order id" : 13640412,
+"Price" : 88,
+"List of drinks" : ["Cola", "Water", "Sprite"],
+"Order extras" : "Cheese"
+},
+{
+  "Order name" : "Sushi",
+  "Order id" : 23640412,
+  "Price" : 188,
+  "List of drinks" : ["Green Tea", "Water", "Orange Juice"],
+  "Order extras" : "salmon"
+  }
+]
