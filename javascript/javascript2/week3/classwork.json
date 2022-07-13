@@ -1,16 +1,17 @@
 [
 {
-"Order name" : "Pepperoni Pizaa",
-"Order id" : 13640412,
-"Price" : 88,
-"List of drinks" : ["Cola", "Water", "Sprite"],
-"Order extras" : "Cheese"
+"orderName" : "Pepperoni Pizaa",
+"orderId" : 13640412,
+"price" : 88,
+"listOfDrinks" : ["Cola", "Water", "Sprite"],
+"orderExtras" : "Cheese"
 },
 {
-  "Order name" : "Sushi",
-  "Order id" : 23640412,
-  "Price" : 188,
-  "List of drinks" : ["Green Tea", "Water", "Orange Juice"],
-  "Order extras" : "salmon"
+  "orderName": "Sushi",
+  "orderId" : 23640412,
+  "price" : 188,
+  "listOfDrinks" : ["Green Tea", "Water", "Orange Juice"],
+  "orderExtras" : "salmon"
   }
 ]
+
