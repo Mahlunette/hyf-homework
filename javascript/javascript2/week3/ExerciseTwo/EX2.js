@@ -42,4 +42,4 @@ console.log(division(8,4)); //output = 2
 const sum = (a,b)=> {a+b}
 const subjects = {maths: sum}
 
-console.log(subjects.maths());
+console.log(subjects.maths);
