@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+
+}
+
+#time-input {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.player-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
